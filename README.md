@@ -6,6 +6,7 @@ Here is the link to the main dataset: [completed-w-holes-7-26-2018.pkl](https://
 You can either remake the `data` directory or change where the Jupyter notebook reads data from.
 
 ## Explanation for what images are in different directory
+These are all generated in `PMLB reproduction.ipynb`
  - `bal_accuracy_heatmaps`
  Heat maps for every dataset using the method 'AdaBoostClassifier'. The pictures in `even` have the same scale for every image. 
  The titles for `even` are the `kldiv` between the heatmap and a flat distribution.
