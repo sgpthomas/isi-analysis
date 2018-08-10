@@ -18,7 +18,7 @@ def entropy(x, k=3, base=2):
         if x is a one-dimensional scalar and we have four samples
     """
     assert k <= len(x) - 1, "Set k smaller than num. samples - 1"
-    d = len(x[0])
+    d = len(np.shape(x))
     N = len(x)
     intens = 1e-10  # small noise to break degeneracy, see doc.
     x = [list(p + intens * nr.rand(len(x[0]))) for p in x]
